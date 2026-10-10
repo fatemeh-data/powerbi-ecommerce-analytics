@@ -246,31 +246,31 @@ powerbi-ecommerce-analytics/
 
 ## 📊 Dashboard Preview
 
-### 🔹 Executive Overview
+### 🔹 Executive Summary
 High-level KPIs and sales performance monitoring.
 
-![Executive Overview](images/executive-overview.png)
+![Executive Summary](images/Executive%20Summary.PNG)
 
 ---
 
 ### 🔹 Customer Analytics
 Customer distribution, regional value, and top customer analysis.
 
-![Customer Analytics](images/customer-analytics.png)
+![Customer Analytics](images/Customer%20Analytics.PNG)
 
 ---
 
 ### 🔹 Product & Sales Analytics
 Product category performance, sales quantity patterns, and shipping indicators.
 
-![Product & Sales Analytics](images/product-sales-analytics.png)
+![Product & Sales Analytics](images/Product%20%26%20Sales%20Analytics.PNG)
 
 ---
 
 ### 🔹 What-if Analysis
 Scenario-based shipping cost comparison and modeled savings.
 
-![What-if Analysis](images/what-if-analysis.png)
+![What-if Analysis](images/What-if%20Analysis.PNG)
 ---
 
 ## ⚠️ Notes & Limitations
