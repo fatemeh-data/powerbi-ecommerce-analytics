@@ -1,4 +1,3 @@
-<img width="1607" height="830" alt="Executive Summary" src="https://github.com/user-attachments/assets/ac1d5db9-e509-4cbb-9489-74921d5ff187" />
 # 🛒 E-commerce Sales & Customer Analytics Dashboard
 
 **End-to-End Business Intelligence Project | Power BI • DAX • Data Analytics**
