@@ -70,7 +70,7 @@ This project provides an interactive reporting framework to explore these questi
 
 ## 📊 Dashboard & Analysis
 
-### 🔹 1. Executive Overview
+### 🔹 1. Executive Summary
 
 Provides a consolidated view of overall sales performance, customer metrics, invoice indicators, and regional and product category trends.
 
@@ -234,7 +234,7 @@ powerbi-ecommerce-analytics/
 ├── README.md
 ├── Ecommerce-Analytics.pbix
 └── screenshots/
-    ├── executive-overview.png
+    ├──Executive Summary.png
     ├── customer-analytics.png
     ├── product-sales-analytics.png
     └── what-if-analysis.png
