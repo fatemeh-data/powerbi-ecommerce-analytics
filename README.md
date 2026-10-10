@@ -271,6 +271,7 @@ Product category performance, sales quantity patterns, and shipping indicators.
 Scenario-based shipping cost comparison and modeled savings.
 
 ![What-if Analysis](images/What-if%20Analysis.PNG)
+
 ---
 
 ## ⚠️ Notes & Limitations
