@@ -283,7 +283,15 @@ Scenario-based shipping cost comparison and modeled savings.
 - All monetary values are expressed in USD.
 
 ---
+## 📊 Data Source
 
+The dataset used in this project was provided by **DataCamp** as part of a practical data analytics learning project.
+
+The dataset was used to explore sales performance, customer behavior, product categories, regional trends, and shipping cost scenarios.
+
+## 🧹 Data Preparation
+
+Before building the dashboard, the data was prepared for analysis in Power BI. The workflow focused on organizing the data, creating relevant measures with DAX, and preparing the metrics and dimensions needed for interactive reporting.
 ## 👩‍💻 Author
 
 **Fatemeh Khosravi**
