@@ -1,88 +1,161 @@
-# E-commerce Sales & Customer Analytics
-### Interactive Power BI Dashboard | Business Intelligence & Decision Support
+# 🛒 E-commerce Sales & Customer Analytics Dashboard
 
-## Executive Summary
+**End-to-End Business Intelligence Project | Power BI • DAX • Data Analytics**
 
-This project presents an interactive Power BI dashboard designed to analyze e-commerce sales performance, customer behavior, product demand, regional performance, and shipping cost optimization opportunities.
+An interactive Power BI dashboard designed to analyze e-commerce sales performance, customer behavior, product trends, regional performance, and shipping cost optimization scenarios.
 
-The dashboard brings together four analytical perspectives: Executive Overview, Customer Analytics, Product & Sales Analytics, and What-if Analysis. It enables users to move from high-level performance monitoring to detailed customer, product, geographic, and operational analysis.
+---
 
-The analysis combines KPI reporting, comparative visualizations, time-series trends, customer-level analysis, and scenario modeling to support data-informed commercial decisions.
+## 📌 Project Overview
 
-## Key Performance Indicators
+This project presents an interactive business intelligence solution for exploring e-commerce sales, customer distribution, product performance, geographic trends, and shipping costs.
 
-| KPI | Value |
-|---|---:|
-| Total Sales | $1.55M |
-| Customers | 3,141 |
-| Total Invoices | 24,404 |
-| Avg Revenue per Customer | $391 |
-| Number of Products | 20 |
-| Total Shipping Cost | $178,317 |
-| Number of Unique Invoices | 11,427 |
-| Average Order Value | $136 |
+The dashboard transforms transactional data into business insights through four analytical pages: Executive Overview, Customer Analytics, Product & Sales Analytics, and What-if Analysis.
 
-All monetary values are expressed in USD. KPI values reflect the current dashboard view and selected filters.
+The objective is to help stakeholders monitor key performance indicators, identify patterns in sales and customer behavior, and evaluate potential operational improvements through scenario-based analysis.
 
-## Business Questions
+---
+
+## 🎯 Business Context
+
+E-commerce businesses need clear visibility into sales performance, customer value, product demand, and operational costs.
+
+Key business questions include:
 
 - Which product categories contribute most to total sales?
-- How does sales performance differ across regions and states?
-- How are customers distributed geographically?
-- Which customers and products contribute most to sales?
-- How does average revenue per customer vary by region?
+- How does sales performance vary across regions and states?
+- Which customers and products are the largest contributors to sales?
+- How does average revenue per customer differ by region?
 - How do sales change over time?
-- How could a user-defined shipping scenario affect estimated shipping costs?
-- Which products may warrant further investigation for shipping cost optimization?
+- How could a shipping cost scenario affect estimated costs?
 
-## Dashboard Pages
+This project provides an interactive reporting framework to explore these questions and support data-informed commercial decisions.
 
-### 1. Executive Overview
+---
 
-Provides a high-level view of business performance through sales, customer, invoice, and average revenue per customer KPIs.
+## 🛠️ Tools & Technologies
 
-Key analyses:
+- **Power BI Desktop** → Interactive dashboards and business reporting
+- **DAX** → KPI calculations and analytical measures
+- **Data Modeling** → Organizing data for cross-dimensional analysis
+- **Power BI Slicers** → Interactive filtering by available dimensions
+- **What-if Parameters** → Scenario-based shipping cost analysis
+
+---
+
+## 🔄 Analytical Workflow
+
+### 1. KPI Reporting
+- Consolidated core sales and customer indicators
+- Presented executive-level performance metrics
+- Enabled interactive exploration through report filters
+
+### 2. Customer & Regional Analysis
+- Compared customer counts across regions and states
+- Analyzed average revenue per customer
+- Identified top customers and geographic contributors
+
+### 3. Product & Sales Analysis
+- Compared sales across product categories
+- Examined top-performing products
+- Analyzed sales and quantity patterns
+- Reviewed shipping cost indicators
+
+### 4. Scenario Analysis
+- Compared baseline shipping costs with scenario-adjusted costs
+- Evaluated modeled cost differences
+- Examined potential cost impacts by product and over time
+
+---
+
+## 📊 Dashboard & Analysis
+
+### 🔹 1. Executive Overview
+
+Provides a consolidated view of overall sales performance, customer metrics, invoice indicators, and regional and product category trends.
+
+**Key KPIs:**
+- Total Sales: $1.55M
+- Customers: 3,141
+- Total Invoices: 24,404
+- Avg Revenue per Customer: $391
+- Number of Products: 20
+
+**Analysis Highlights:**
 - Sales by product category
-- Sales by state
+- Sales by state and region
 - Monthly sales trends
-- Sales by region
+- High-level performance monitoring
 
-Business value:
-Helps stakeholders monitor overall performance, identify leading categories and regions, and recognize periods that may require further investigation.
+**Business Value:**
+- Provides a quick overview of business performance
+- Highlights leading categories and regions
+- Supports further investigation of sales trends
 
-### 2. Customer Analytics
+---
 
-Focuses on customer distribution, customer value, and major revenue contributors.
+### 🔹 2. Customer Analytics
 
-Key analyses:
-- Number of customers by region
+Focuses on customer distribution, customer value, and major sales contributors.
+
+**Key KPIs:**
+- Customers: 3,141
+- Avg Revenue per Customer: $391
+- Number of Unique Invoices: 11,427
+
+**Analysis Highlights:**
+- Customer distribution by region
 - Average revenue per customer by region
 - Top 10 states by customer count
 - Top 10 customers by sales
 - Top 10 states by total sales
 
-Business value:
-Supports customer and regional comparisons, helps identify high-value customers, and provides a starting point for targeted customer engagement and regional growth analysis.
+**Key Insights:**
+- The East region has the highest customer count, with 1,387 customers.
+- The East region generates approximately $548K in sales.
+- West has the highest average revenue per customer among the East, Central, and West regions, at approximately $405.
 
-### 3. Product & Sales Analytics
+**Business Value:**
+- Supports customer and regional performance comparisons
+- Helps identify major sales contributors
+- Provides a basis for targeted customer engagement and regional growth analysis
 
-Examines product and category performance alongside sales, quantity, and shipping-related indicators.
+---
 
-Key analyses:
+### 🔹 3. Product & Sales Analytics
+
+Examines product category performance, sales quantity patterns, and shipping-related indicators.
+
+**Key KPIs:**
+- Total Sales: $1.55M
+- Total Shipping Cost: $178,317
+- Number of Products: 20
+
+**Analysis Highlights:**
 - Sales by category
 - Top 10 products by sales
-- Sales by region
 - Sales distribution by quantity
 - Sales versus quantity by category
 - Average quantity by product description
-- Shipping cost indicators
+- Regional sales and shipping cost indicators
 
-Business value:
-Helps identify major revenue contributors, compare sales and quantity patterns, and investigate differences in product demand and shipping-related costs.
+**Key Insights:**
+- Food generates approximately $0.54M in sales.
+- Disposables generates approximately $0.43M in sales.
+- These categories are major contributors to total sales in the current dashboard view.
 
-### 4. What-if Analysis
+**Business Value:**
+- Helps identify leading product categories
+- Supports comparisons between sales and quantity
+- Highlights products and categories for further demand and cost analysis
 
-Introduces scenario-based analysis to compare baseline shipping costs with user-defined scenario results.
+---
+
+### 🔹 4. What-if Analysis
+
+Uses scenario modeling to compare baseline shipping costs with the results of a configured shipping scenario.
+
+**Key Metrics:**
 
 | Metric | Value |
 |---|---:|
@@ -91,84 +164,128 @@ Introduces scenario-based analysis to compare baseline shipping costs with user-
 | Modeled Cost Reduction | $59,095 |
 | Displayed Shipping Cost Savings | 15% |
 
-The displayed baseline and scenario totals imply a cost reduction of approximately 15.3%.
+The displayed baseline and scenario values imply a modeled reduction of approximately 15.3%.
 
-Business value:
-Demonstrates how interactive scenario modeling can quantify potential cost reductions, compare product-level cost impacts, and support operational planning.
+**Analysis Highlights:**
+- Baseline versus scenario shipping costs
+- Product-level shipping cost comparisons
+- Monthly cumulative shipping cost trends
+- Estimated cost differences under the selected scenario
 
-These results represent a modeled scenario, not verified real-world savings. The assumptions and parameter logic should be validated before drawing operational conclusions.
+**Business Value:**
+- Demonstrates the use of What-if parameters in business analysis
+- Helps quantify potential cost reductions
+- Supports evaluation of operational scenarios before implementation
 
-## Key Business Insights
+**Important Consideration:**
+These results represent a modeled scenario, not verified real-world savings. The outcome depends on the parameter settings and assumptions defined in the report.
 
-### Product Category Concentration
+---
 
+## 📈 Key Business Insights
+
+### Product Category Performance
 Food and Disposables are the largest categories by sales in the current report view, contributing approximately $0.54M and $0.43M, respectively.
 
-**Potential action:** Monitor demand and product availability in these categories and investigate opportunities in smaller categories.
+**Potential action:** Monitor demand and availability in major categories while investigating opportunities in smaller categories.
 
-### Regional Performance
+### Regional Sales and Customer Value
+The East region leads total sales at approximately $548K and has the largest customer count. However, West has the highest average revenue per customer among the East, Central, and West regions.
 
-The East region leads total sales at approximately $548K and has the largest customer count, with 1,387 customers.
+**Potential action:** Compare customer counts, product mix, and purchasing patterns to understand regional differences.
 
-However, West has the highest average revenue per customer among the East, Central, and West regions, at approximately $405.
+### Shipping Cost Optimization
+The configured What-if scenario reduces modeled shipping costs by $59,095, approximately 15.3% of the baseline amount.
 
-**Potential action:** Compare customer counts, purchasing patterns, and product mix to understand the differences between total sales and average customer value.
+**Potential action:** Validate the scenario assumptions and compare projected savings with actual shipping costs before making operational changes.
 
-### Product-Level Performance
+---
 
-The product and sales page highlights top-performing products and differences in sales and quantity across categories.
+## 🧩 Key Analytical Capabilities
 
-**Potential action:** Use product-level results to prioritize further analysis of demand, assortment, and operational costs rather than assuming that high sales automatically mean high profitability.
+- Executive KPI reporting
+- Customer and regional segmentation
+- Product category and sales performance analysis
+- Geographic comparisons
+- Time-series trend analysis
+- Baseline versus scenario comparison
+- What-if parameter analysis
+- Business insight communication
 
-### Shipping Cost Scenario
+---
 
-The What-if page shows a modeled reduction of $59,095 from a baseline of $385,150, equivalent to approximately 15.3%.
+## 💼 Business Value
 
-**Potential action:** Validate the scenario assumptions and compare projected savings with actual shipping costs before implementing changes.
+This project demonstrates the ability to:
 
-## Tools & Skills Demonstrated
+- Translate transactional data into business-focused reporting
+- Build interactive dashboards for multiple analytical perspectives
+- Compare customer, product, and regional performance
+- Use DAX measures to calculate and present KPIs
+- Apply scenario analysis to operational cost questions
+- Turn observed patterns into actionable recommendations for further investigation
 
-- Power BI Desktop
-- DAX measures and KPI calculations
-- Interactive slicers and report navigation
-- Sales and customer analytics
-- Product and category performance analysis
-- Geographic and regional comparisons
-- Time-series analysis
-- What-if parameter and scenario analysis
-- Data visualization and business insight communication
+---
 
-## Analytical Approach
+## 📁 Project Structure
 
-1. Consolidate business KPIs into an executive reporting view.
-2. Compare sales and customer performance across categories and regions.
-3. Examine customer-level and product-level contributors.
-4. Analyze changes in sales over time.
-5. Compare baseline and scenario-based shipping costs.
-6. Translate observed patterns into recommendations for further investigation.
+```text
+powerbi-ecommerce-analytics/
+├── README.md
+├── Ecommerce-Analytics.pbix
+└── screenshots/
+    ├── executive-overview.png
+    ├── customer-analytics.png
+    ├── product-sales-analytics.png
+    └── what-if-analysis.png
+```
 
-## Limitations & Considerations
+*Update the PBIX filename and screenshot paths if your actual repository uses different names.*
 
-- Findings reflect the current report filters and available dataset.
-- Observed relationships do not establish causation.
-- Sales and revenue metrics do not, by themselves, measure profitability.
-- What-if results depend on the assumptions and calculations defined in the model.
-- KPI values may change when report filters are applied.
+---
 
-## Repository Contents
+## 📊 Dashboard Preview
 
-- `README.md` — Project overview, analytical scope, and business insights
-- `Ecommerce-Analytics.pbix` — Power BI report file
-- `screenshots/` — Dashboard page previews
+### 🔹 Executive Overview
+High-level KPIs and sales performance monitoring.
 
-## How to Explore the Dashboard
+![Executive Overview](screenshots/executive-overview.png)
 
-Open the Power BI report in Power BI Desktop and use the available slicers to explore results by year, category, region, and other available dimensions.
+---
 
-The What-if Analysis page allows users to explore the impact of the configured shipping scenario.
+### 🔹 Customer Analytics
+Customer distribution, regional value, and top customer analysis.
 
-## Author
+![Customer Analytics](screenshots/customer-analytics.png)
 
-Fatemeh Khosravi
+---
+
+### 🔹 Product & Sales Analytics
+Product category performance, sales quantity patterns, and shipping indicators.
+
+![Product & Sales Analytics](screenshots/product-sales-analytics.png)
+
+---
+
+### 🔹 What-if Analysis
+Scenario-based shipping cost comparison and modeled savings.
+
+![What-if Analysis](screenshots/what-if-analysis.png)
+
+---
+
+## ⚠️ Notes & Limitations
+
+- KPI values reflect the current dashboard view and may change when filters are applied.
+- Sales and revenue do not, by themselves, measure profitability.
+- Observed patterns do not establish causation.
+- What-if results depend on the configured scenario assumptions.
+- All monetary values are expressed in USD.
+
+---
+
+## 👩‍💻 Author
+
+**Fatemeh Khosravi**
 
 Data Analytics | Business Intelligence | Power BI
